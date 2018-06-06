@@ -10,10 +10,8 @@
         <version>0.0.1</version>
     </parent>
 
-    <groupId>br.com.davimonteiro</groupId>
     <artifactId>account-service</artifactId>
     <version>0.0.1</version>
-
     <name>crm-msa-example/account-service</name>
 
     <dependencies>
@@ -25,13 +23,6 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-            <optional>true</optional>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.springframework.boot</groupId>
-                    <artifactId>spring-boot-starter-web</artifactId>
-                </exclusion>
-            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -53,5 +44,5 @@
             </plugin>
         </plugins>
     </build>
-    
+
 </project>

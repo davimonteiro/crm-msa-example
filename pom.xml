@@ -16,8 +16,6 @@
     <packaging>pom</packaging>
     <name>crm-msa-example/parent</name>
 
-    <description>Demo project for Spring Boot</description>
-
     <modules>
         <module>consumer-service</module>
         <module>profile-service</module>

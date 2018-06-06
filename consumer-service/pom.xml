@@ -10,7 +10,6 @@
         <version>0.0.1</version>
     </parent>
 
-    <groupId>br.com.davimonteiro</groupId>
     <artifactId>consumer-service</artifactId>
     <version>0.0.1</version>
 
@@ -25,13 +24,6 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-            <optional>true</optional>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.springframework.boot</groupId>
-                    <artifactId>spring-boot-starter-web</artifactId>
-                </exclusion>
-            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>

@@ -10,10 +10,8 @@
         <version>0.0.1</version>
     </parent>
 
-    <groupId>br.com.davimonteiro</groupId>
     <artifactId>email-service</artifactId>
     <version>0.0.1</version>
-
     <name>crm-msa-example/email-service</name>
 
     <dependencies>
@@ -25,26 +23,8 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-            <optional>true</optional>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.springframework.boot</groupId>
-                    <artifactId>spring-boot-starter-web</artifactId>
-                </exclusion>
-            </exclusions>
         </dependency>
-        <!--<dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-mail</artifactId>
-        </dependency>-->
         <!-- END Spring Boot dependencies -->
-
-        <!-- Apache commons dependencies-->
-        <dependency>
-            <groupId>org.apache.commons</groupId>
-            <artifactId>commons-lang3</artifactId>
-        </dependency>
-        <!-- END Apache commons dependencies-->
     </dependencies>
 
     <build>
@@ -55,5 +35,5 @@
             </plugin>
         </plugins>
     </build>
-    
+
 </project>
